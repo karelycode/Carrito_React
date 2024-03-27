@@ -3,12 +3,7 @@ import { dataContext } from "../Context/DataContext";
 import "./Products.css";
 
 const Products = () => {
-    const {data, cart, setCart} = useContext(dataContext);
-    
-    const addToCart = (product) => {
-        console.log(product);
-        setCart([...cart, product]);
-    };
+    const {data, addToCart} = useContext(dataContext);
     
     return data.map((product) => {
         return (

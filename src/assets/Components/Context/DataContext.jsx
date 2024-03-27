@@ -13,8 +13,19 @@ const DataProvider = ({ children }) => {
         });
     },[])
 
+    const addToCart = (product) => {
+        const productExist = cart.find((item) => item.id === product.id);
+        if(productExist){
+            setCart(cart.map((item) => item.id === product.id ? {...product, quanty: productExist.quanty + 1} : item));
+        
+        }else{
+            setCart([...cart, product]);
+        }
+        
+    };
+
     return(
-        <dataContext.Provider value={{data, cart, setCart}}>
+        <dataContext.Provider value={{data, cart, setCart, addToCart}}>
             {children}
         </dataContext.Provider>
     )

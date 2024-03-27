@@ -5,15 +5,13 @@ import { dataContext } from "../Context/DataContext";
 
 const CartContent = () => {
   const {cart} = useContext(dataContext);
-
-  return cart.lengt > 0 ?(
+  //Condicional para cuando no haya productos en el carrito no funciona, investigar como hacerlo
+  return (
     <>  
       <CartElements />
       <CartTotal />
     </>
-  ):(
-    <h2>No hay productos en el carrito</h2>
-  );
+  )
   
 };
 

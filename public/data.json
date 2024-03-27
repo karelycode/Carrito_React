@@ -4,105 +4,120 @@
         "name": "Reza, come, ama",
         "autor": "Elizabeth Gilbert",
         "price": 392.70,
-        "image": "https://m.media-amazon.com/images/I/61Xl-TWv57S._SY342_.jpg"
+        "image": "https://m.media-amazon.com/images/I/61Xl-TWv57S._SY342_.jpg",
+        "quanty": 1
     },
     {
         "id": 2,
         "name": "Hija de humo y hueso",
         "autor": "Laini Taylor",
         "price": 399.00,
-        "image": "https://m.media-amazon.com/images/I/71cc1WgakKL._SY342_.jpg"
+        "image": "https://m.media-amazon.com/images/I/71cc1WgakKL._SY342_.jpg",
+        "quanty": 1
     },
     {
         "id": 3,
         "name": "Desde mi cielo",
         "autor": "Alice Sebold",
         "price": 410.00,
-        "image": "https://m.media-amazon.com/images/I/41kb0ZV3kbL._SY445_SX342_.jpg"
+        "image": "https://m.media-amazon.com/images/I/41kb0ZV3kbL._SY445_SX342_.jpg",
+        "quanty": 1
     },
     {
         "id": 4,
         "name": "La ladrona de libros",
         "autor": "Markus Zusak",
         "price": 299.99,
-        "image": "https://m.media-amazon.com/images/I/51w7Dd4gbmL._SY445_SX342_.jpg"
+        "image": "https://m.media-amazon.com/images/I/51w7Dd4gbmL._SY445_SX342_.jpg",
+        "quanty": 1
     },
     {
         "id": 5,
         "name": "El niño con el pijama de rayas",
         "autor": "John Boyne",
         "price": 209.00,
-        "image": "https://m.media-amazon.com/images/I/51ehWeUL3QL._SY445_SX342_.jpg"
+        "image": "https://m.media-amazon.com/images/I/51ehWeUL3QL._SY445_SX342_.jpg",
+        "quanty": 1
     },
     {
         "id": 6,
         "name": "El principito",
         "autor": "Antoine de Saint-Exupéry",
         "price": 619.99,
-        "image": "https://m.media-amazon.com/images/I/41ZHzrJEOOS._SY445_SX342_.jpg"
+        "image": "https://m.media-amazon.com/images/I/41ZHzrJEOOS._SY445_SX342_.jpg",
+        "quanty": 1
     },
     {
         "id": 7,
         "name": "El alquimista",
         "autor": "Paulo Coelho",
         "price": 189.83,
-        "image": "https://m.media-amazon.com/images/I/71Y+zLnZJuL._SY342_.jpg"
+        "image": "https://m.media-amazon.com/images/I/71Y+zLnZJuL._SY342_.jpg",
+        "quanty": 1
     },
     {
         "id": 8,
         "name": "El código Da Vinci",
         "autor": "Dan Brown",
         "price": 421.00,
-        "image": "https://m.media-amazon.com/images/I/51uXv7gbU-L._SY445_SX342_.jpg"
+        "image": "https://m.media-amazon.com/images/I/51uXv7gbU-L._SY445_SX342_.jpg",
+        "quanty": 1
     },
     {
         "id": 9,
         "name": "El name del viento",
         "autor": "Patrick Rothfuss",
         "price": 449.99,
-        "image": "https://m.media-amazon.com/images/I/51LxuOrTtZL._SY445_SX342_.jpg"
+        "image": "https://m.media-amazon.com/images/I/51LxuOrTtZL._SY445_SX342_.jpg",
+        "quanty": 1
     },
     {
         "id": 10,
         "name": "La sombra del viento",
         "autor": "Carlos Ruiz Zafón",
         "price": 298.47,
-        "image": "https://m.media-amazon.com/images/I/51tubxv4p7L._SY445_SX342_.jpg"
+        "image": "https://m.media-amazon.com/images/I/51tubxv4p7L._SY445_SX342_.jpg",
+        "quanty": 1
     },
     {
         "id": 11,
         "name": "El retrato de Dorian Gray",
         "autor": "Oscar Wilde",
         "price": 100.00,
-        "image": "https://m.media-amazon.com/images/I/71PnHwbJ+OL._SY342_.jpg"
+        "image": "https://m.media-amazon.com/images/I/71PnHwbJ+OL._SY342_.jpg",
+        "quanty": 1
     },
     {
         "id": 12,
         "name": "Bridgerton 1: El duque y yo",
         "autor": "Julia Quinn",
         "price": 340.00,
-        "image": "https://m.media-amazon.com/images/I/61XHYx6+A+L._SY342_.jpg"
+        "image": "https://m.media-amazon.com/images/I/61XHYx6+A+L._SY342_.jpg",
+        "quanty": 1
     },
     {
         "id": 13,
         "name": "1984",
         "autor": "George Orwell",
         "price": 188.10,
-        "image": "https://m.media-amazon.com/images/I/51rXrmHv51L._SY445_SX342_.jpg"
+        "image": "https://m.media-amazon.com/images/I/51rXrmHv51L._SY445_SX342_.jpg",
+        "quanty": 1
     },
     {
         "id": 14,
         "name": "Cien años de soledad",
         "autor": "Gabriel García Márquez",
         "price": 270.00,
-        "image": "https://m.media-amazon.com/images/I/71YoFJSz3LL._SY466_.jpg"
+        "image": "https://m.media-amazon.com/images/I/71YoFJSz3LL._SY466_.jpg",
+        "quanty": 1
     },
     {
         "id": 15,
         "name": "Crónica de una muerte anunciada",
         "autor": "Gabriel García Márquez",
         "price": 218.00,
-        "image": "https://m.media-amazon.com/images/I/51MKICB0hKL._SY445_SX342_.jpg"
+        "image": "https://m.media-amazon.com/images/I/51MKICB0hKL._SY445_SX342_.jpg",
+        "quanty": 1
     }
     
     

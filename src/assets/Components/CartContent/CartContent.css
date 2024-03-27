@@ -8,9 +8,20 @@
 .cartContent > image {
   width: 100%;
   height: 100%;
-  text-align: center;
+  text-align:center;
 }
 
 .cartTotal {
   text-align: center;
+
+}
+
+.counter-button{
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cart-delete-button{
+  cursor: pointer;
+  font-weight: bold;
 }
