@@ -13,8 +13,10 @@
 
 .cartTotal {
   text-align: center;
+  margin: 100px;
 
 }
+
 
 .counter-button{
   cursor: pointer;
