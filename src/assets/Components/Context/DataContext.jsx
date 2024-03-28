@@ -1,17 +1,14 @@
-import { createContext, useState, useEffect } from "react";
-import axios from "axios";
+import { createContext, useEffect, useState } from "react";
 
 export const dataContext = createContext();
 
 const DataProvider = ({ children }) => {
-    const [data, setData] = useState([]);
-    const [cart, setCart] = useState([]);
+    const savedCart = JSON.parse(localStorage.getItem("cart")) || [];
+    const [cart, setCart] = useState(savedCart);
 
-    useEffect(() =>{
-        axios("data.json").then((response) => {
-            setData(response.data);
-        });
-    },[])
+    useEffect(() => {
+        localStorage.setItem("cart", JSON.stringify(cart));
+    }, [cart]);
 
     const addToCart = (product) => {
         const productExist = cart.find((item) => item.id === product.id);
@@ -25,7 +22,7 @@ const DataProvider = ({ children }) => {
     };
 
     return(
-        <dataContext.Provider value={{data, cart, setCart, addToCart}}>
+        <dataContext.Provider value={{cart, setCart, addToCart}}>
             {children}
         </dataContext.Provider>
     )
